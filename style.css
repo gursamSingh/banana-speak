@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yanone+Kaffeesatz&display=swap');
+
+
+:root{
+    --primary-color: #F2C94C;;
+    --secondary-color: black;
+    --bg-color: white;
+    --width-break: 600px;
+}
+
+body{
+    margin: 0px;
+    display: block;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#txt-input{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.nav{
+    display: block;
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 5rem;
+}
+.div-heading{
+    padding: 2rem;
+    font-size: 30px;
+    height : 100%;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 1rem;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: larger;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #F2C94C;
+    padding: 1rem 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-div{
+    font-size: 25px;
+    padding: 0.5rem;
+}
+
+.footer-para{
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+}
+.main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+    display: block;
+
+}
